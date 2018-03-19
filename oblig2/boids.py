@@ -189,7 +189,7 @@ class Hoiks(MovingObjects):
     pass
 
     # Responsible for making hoiks chase boids
-    # Returns vectors pointing towards different hoiks
+    # Returns vectors pointing towards different boids
     def chase(self, boid):
 
         try:
